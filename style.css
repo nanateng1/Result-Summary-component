@@ -16,9 +16,9 @@ body {
     margin: auto;
     padding: auto;
     background-color: rgb(255, 255, 255);
-    box-shadow:9px 9px 18px rgba(0, 0, 0, 0.19);
-    width: 60%;
-    height: 60%;
+    box-shadow:9px 9px 18px rgba(0, 0, 0, 0.251);
+    max-width: 40%;
+    height: 70%;
     border-radius: 10px;
 }
 
@@ -26,7 +26,7 @@ body {
 
 .left-wrapper {
     width: 50%;
-    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    background-image: linear-gradient(hsl(252, 100%, 67%) 5%, hsl(241, 81%, 54%) 50%);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -45,11 +45,11 @@ body {
 
 .score {
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsl(241, 81%, 54%) );
-    /* box-shadow:
-    9px 6px 17px -13px rgba(0, 0, 0, 0.19); */
+    box-shadow:
+    0px 6px 17px -4px rgba(0, 0, 0, 0.19);
     position: relative;
 }
 
@@ -59,7 +59,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: hsla(241, 100%, 89%, 0.651);
+    color: hsla(241, 100%, 89%, 0.46);
 }
 
 .score-detail > span {
@@ -78,12 +78,13 @@ body {
 }
 .remarks-section > p {
     padding: 5px 0; 
-    color: hsla(241, 100%, 89%, 0.651);
+    color: hsla(241, 100%, 89%, 0.448);
 }
 
 /* Right Side */
 .right-wrapper {
     width: 50%;
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
